@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+#start {
+    text-align: center;
+}
+
+#start img {
+    max-width: 90mm;
+    padding: 10px;
+    background-color: goldenrod; 
+    border-radius: 1.5%;
+}
+
+#start header {
+    color: silver;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    color: rgb(54, 75, 54);
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+    color: rgb(54, 75, 54);
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p {
+    color: silver;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+}
+

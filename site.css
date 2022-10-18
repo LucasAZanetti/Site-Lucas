@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(8, 47, 34);
+}
+
+h1 {
+    padding: 20px;
+    background-color: rgb(91, 91, 77);
+    text-align: start;
+    border: 7px solid;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+
+
+h2 {
+    background-color: rgba(4, 13, 51, 0.445);
+    font-style: oblique;
+    color: rgb(91, 91, 77);
+    text-align: left;
+    border: 2px solid black;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'EB Garamond', serif;
+}
+
+#nome{
+    color: black;
+    text-decoration: none;
+}
+
+#nome:hover{
+    color:rgb(44, 27, 79);
+    transition: color 250ms;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.links a {
+    color: rgb(91, 91, 77);
+    text-decoration: underline;
+    padding: 0 20px;
+    display: inline-block;
+    margin-inline-start: 105mm;
+    /* display: flex; */
+}
+
+.links a:hover {
+    transition: 250ms;
+    color: black
+}
+
+/* CARDS */
+
+.cards {
+    width: 80%;
+    /* background-color: rgb(11, 73, 53); opacity: 0.6; */
+    padding: 1px;
+    text-align: center; 
+}
+
+.card {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    background-color: rgb(11, 73, 53);
+    margin: 32px auto;
+    margin-right: 32px; 
+    border-radius: 3%;
+    /* opacity: 0.6; */
+}
+
+.card-image {
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.card-image img {
+    width: 70%;
+    height: 90%; 
+    padding: 32px;
+    opacity: 100%;
+    border-radius: 20% 25%;
+    /* background-color: red; */
+}
+
+.title {
+    background-color: rgb(8, 47, 34);
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    filter: brightness(130%);
+    border-radius: 8%;
+
+}
+
+.card-content{
+    /* background-color: blue; */
+    width: 100%;
+}
+
+
+
