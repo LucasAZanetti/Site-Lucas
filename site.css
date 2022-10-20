@@ -56,17 +56,18 @@ h2 {
     width: 80%;
     /* background-color: rgb(11, 73, 53); opacity: 0.6; */
     padding: 1px;
-    text-align: center; 
+    text-align: left;
 }
 
 .card {
     width: 80%;
-    height: 300px;
+    height: 310px;
     display: flex;
     background-color: rgb(11, 73, 53);
     margin: 32px auto;
     margin-right: 32px; 
     border-radius: 3%;
+    color: rgb(245, 239, 239);
     /* opacity: 0.6; */
 }
 
@@ -88,7 +89,7 @@ h2 {
 .title {
     background-color: rgb(8, 47, 34);
     font-size: 25px;
-    color: black;
+    color: rgb(224, 216, 216);
     text-align: center;
     filter: brightness(130%);
     border-radius: 8%;
@@ -96,7 +97,7 @@ h2 {
 }
 
 .card-content {
-    /* background-color: blue; */
+    opacity: 0.6;
     width: 100%;
 }
 
