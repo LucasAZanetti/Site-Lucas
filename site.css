@@ -69,6 +69,16 @@ h2 {
     border-radius: 3%;
     color: rgb(245, 239, 239);
     /* opacity: 0.6; */
+    /* position: absolute; */
+    z-index: -1;
+    inset: 0;
+    object-fit: cover;
+    transition: transform 2s;
+}
+
+.card:hover {
+    transform: scale(1.2);
+    background-color: rgb(25, 53, 44);
 }
 
 .card-image {
